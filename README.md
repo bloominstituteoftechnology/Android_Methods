@@ -20,6 +20,10 @@ https://repl.it/teacher/assignments/1122445
 Submit through repl.it
 
 ### Challenge
+#### repl.it
 Randomly generate a secret number.
 
 TIP: Documentation located [here](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random--)
+
+#### Android
+After writing the app in repl.it, write it as an android app. Use [EditText](https://developer.android.com/reference/android/widget/EditText) to get input and output to a [TextView](https://developer.android.com/reference/android/widget/TextView) or another way you think would be intuitive.
