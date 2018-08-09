@@ -1,7 +1,7 @@
 # Android_Methods
 
 ### Requirements
-1. Write a guessing game where the user has to guess a secret number you will hard code as another data member (there is a challenge at the end to make this random). After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. I counts only as one try if they input the same number multiple times consecutively.
+1. Write a guessing game where the user has to guess a secret number you will hard code as another data member (there is a challenge at the end to make this random). After every guess the program tells the user whether their number was too large or too small.  
 2. Must include these methods  
    a. `int checkGuess(int guess)`  
       i. check to see if the number is correct and return the result as an integer value
