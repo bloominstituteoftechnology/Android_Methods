@@ -48,8 +48,10 @@ Send your completed app to your Project Manager.
 ### Challenge
 Randomly generate a secret number.
 
-> You'll have to create a new Random object using `Random generator = new Random();`
-> Documentation located [here](https://developer.android.com/reference/java/util/Random.html#nextInt(int))
+> You'll have to create a new Random object using  
+> `Random generator = new Random();`  
+> `generator.nextInt(MAX_VALUE); // where MAX_VALUE < the highest number you want to generate`  
+> Documentation located [here](https://developer.android.com/reference/java/util/Random.html#nextInt(int))  
 
 When the user has correctly guessed the number, allow them to reset and allow the user to try again.
 
