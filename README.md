@@ -6,10 +6,10 @@ After completing this project, please fill out the survey found [here](https://g
 ### Requirements
 1. Write a guessing game where the user has to guess a secret number you will hard code as another data member (there is a challenge at the end to make this random). After every guess the program tells the user whether their number was too large or too small.  
 2. Must include these methods  
-   a. `int checkGuess(int guess)`  
+   a. `fun checkGuess(guess: Int): Int`  
       i. check to see if the number is correct and return the result as an integer value
       
-   b. `void updateUI(int result)`  
+   b. `fun updateUI(result: Int)`  
       i. this will perform all the tasks necessary to update the display once the result has been determined  
       ii. use a switch statement inside of this method to determine what to display to the user based on the provided result.
       
@@ -51,9 +51,8 @@ Send your completed app to your Project Manager.
 ### Challenge
 Randomly generate a secret number.
 
-> You'll have to create a new Random object using  
-> `Random generator = new Random();`  
-> `generator.nextInt(MAX_VALUE); // where MAX_VALUE < the highest number you want to generate`  
+> use `Random.nextInt(MAX_VALUE); // where MAX_VALUE < the highest number you want to generate`  
+> You'll need to import the `kotlin.random.Random` library for this to work
 > Documentation located [here](https://developer.android.com/reference/java/util/Random.html#nextInt(int))  
 
 When the user has correctly guessed the number, allow them to reset and allow the user to try again.
