@@ -1,4 +1,4 @@
-# Android_Methods
+# Android Functions  
 
 ### Survey
 After completing this project, please fill out the survey found [here](https://goo.gl/forms/cNNYpNHSfyIeK1xx1)
